@@ -1,1 +1,33 @@
-Welcome to Fortune Joy Shield
+<style>
+  .welcome {
+    animation: fadeIn 2s ease-in-out;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+
+<h1 class="welcome">Welcome to Fortune Joy Shield</h1>
+<p style="text-align:center; font-size:1.2em; color:#2a5298; margin: 16px 0 24px 0; font-family: 'Cinzel', serif;">Your gateway to secure and joyful experiences online.</p>
+<a href="/login" class="login-button">LOGIN</a>
+
+<style>
+  .login-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease;
+  }
+
+  .login-button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #2a5298, #1e3c72);
+  }
+</style>
